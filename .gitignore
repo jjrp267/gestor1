@@ -1,0 +1,27 @@
+# -- Symfony2 -----------------------------------------
+carpeta/app/bootstrap.php.cache
+carpeta/app/bootstrap_cache.php.cache
+carpeta/app/config/parameters.ini
+carpeta/app/config/parameters.yml
+carpeta/app/cache/*
+carpeta/app/logs/*
+carpeta/vendor/*
+bundles/*
+
+# -- Editores -----------------------------------------
+
+# netbeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Linux
+.*
+!.gitignore
+!.htaccess
+*~
+

@@ -1,0 +1,31 @@
+entrada:
+    pattern:  /
+    defaults: { _controller: CARPMtoBundle:Tareas:index }
+
+tareas_lista:
+    pattern:  /tareas
+    defaults: { _controller: CARPMtoBundle:Tareas:index }
+    
+tareas_create:
+    pattern:  /tareas_create
+    defaults: { _controller: CARPMtoBundle:Tareas:create }
+
+tareas_new:
+    pattern:  /tareas_new
+    defaults: { _controller: CARPMtoBundle:Tareas:new }
+
+tareas_show:
+    pattern:  /tareas_show/{id}
+    defaults: { _controller: CARPMtoBundle:Tareas:show }
+
+tareas_edit:
+    pattern:  /tareas_edit/{id}
+    defaults: { _controller: CARPMtoBundle:Tareas:edit }
+    
+tareas_delete:
+    pattern:  /tareas_delete/{id}
+    defaults: { _controller: CARPMtoBundle:Tareas:delete }
+
+tareas_update:
+    pattern:  /tareas_update/{id}
+    defaults: { _controller: CARPMtoBundle:Tareas:update }

@@ -1,0 +1,4 @@
+carp_mto:
+    resource: "@CARPMtoBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,7 @@
+parameters:
+#    carp_mto.example.class: Acme\HelloBundle\Example
+
+services:
+#    carp_mto.example:
+#        class: %carp_mto.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
